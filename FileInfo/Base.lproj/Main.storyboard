@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -51,6 +51,44 @@
                                         <menuItem title="Quit FileInfo" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Copy" id="FWT-8a-US2">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Copy" id="5uf-tj-WoU">
+                                    <items>
+                                        <menuItem title="Copy File Path" keyEquivalent="p" id="KIo-gd-fkS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="copyFilePathMenuItemClicked:" target="Ady-hI-5gd" id="Kx5-D6-gxt"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy File Size" keyEquivalent="s" id="c8d-wz-Hsx">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="copyFileSizeMenuItemClicked:" target="Ady-hI-5gd" id="Tax-mS-UpR"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy File Directory" keyEquivalent="d" id="r64-5J-mW8">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="copyFileDirectoryMenuItemClicked:" target="Ady-hI-5gd" id="zf2-pU-bBa"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Window" id="v7L-Bb-1cL">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Window" id="rzq-lp-EhY">
+                                    <items>
+                                        <menuItem title="Close Window" keyEquivalent="w" id="c6O-XP-1tj">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="performClose:" target="Ady-hI-5gd" id="yfJ-2w-9Re"/>
                                             </connections>
                                         </menuItem>
                                     </items>
