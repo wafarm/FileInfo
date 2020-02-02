@@ -57,6 +57,23 @@ class ViewController: NSViewController {
         copyStringToPasteboard(string: fileSizeTextField.stringValue)
     }
     
+    
+    @IBAction func copyFilePathMenuItemClicked(_ sender: Any) {
+        copyFilePathButtonClicked(sender)
+    }
+    
+    
+    @IBAction func copyFileDirectoryMenuItemClicked(_ sender: Any) {
+        copyFileDirectoryButtonClicked(sender)
+    }
+    
+    
+    @IBAction func copyFileSizeMenuItemClicked(_ sender: Any) {
+        copyFileSizeButtonClicked(sender)
+    }
+    
+    
+    
 }
 
 
