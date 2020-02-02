@@ -18,6 +18,7 @@ class ViewController: NSViewController {
     }
     @IBOutlet weak var filePathTextField: NSTextField!
     @IBOutlet weak var fileSizeTextField: NSTextField!
+    @IBOutlet weak var fileDirectoryTextField: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class ViewController: NSViewController {
         super.viewDidAppear()
         showFilePath()
         showFileSize()
+        showFileDirectory()
     }
 
     override var representedObject: Any? {
@@ -43,6 +45,11 @@ class ViewController: NSViewController {
     
     @IBAction func copyFilePathButtonClicked(_ sender: Any) {
         copyStringToPasteboard(string: filePathTextField.stringValue)
+    }
+    
+    
+    @IBAction func copyFileDirectoryButtonClicked(_ sender: Any) {
+        copyStringToPasteboard(string: fileDirectoryTextField.stringValue)
     }
     
     
@@ -69,6 +76,17 @@ extension ViewController {
     }
     
     
+    func showFileDirectory() {
+        if document != nil {
+            var filePath = filePathTextField.stringValue
+            while filePath[filePath.index(filePath.endIndex, offsetBy: -1)] != Character("/") {
+                filePath.remove(at: filePath.index(filePath.endIndex, offsetBy: -1))
+            }
+            fileDirectoryTextField.stringValue = filePath
+        }
+    }
+    
+    
     func showFileSize() {
         if document != nil {
             let filePath = filePathTextField.stringValue
@@ -80,7 +98,7 @@ extension ViewController {
             } catch {
                 print("Error: \(error)")
             }
-            fileSizeTextField.stringValue = "\(fileSize) Bytes"
+            fileSizeTextField.stringValue = "\(fileSize)"
         }
     }
     
