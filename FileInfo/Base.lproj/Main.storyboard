@@ -60,31 +60,19 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Copy" id="5uf-tj-WoU">
                                     <items>
-<<<<<<< HEAD
-                                        <menuItem title="Copy File Path" keyEquivalent="p" id="KIo-gd-fkS">
-=======
                                         <menuItem title="File Path" keyEquivalent="p" id="KIo-gd-fkS">
->>>>>>> dev
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="copyFilePathMenuItemClicked:" target="Ady-hI-5gd" id="Kx5-D6-gxt"/>
                                             </connections>
                                         </menuItem>
-<<<<<<< HEAD
-                                        <menuItem title="Copy File Size" keyEquivalent="s" id="c8d-wz-Hsx">
-=======
                                         <menuItem title="File Size" keyEquivalent="s" id="c8d-wz-Hsx">
->>>>>>> dev
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="copyFileSizeMenuItemClicked:" target="Ady-hI-5gd" id="Tax-mS-UpR"/>
                                             </connections>
                                         </menuItem>
-<<<<<<< HEAD
-                                        <menuItem title="Copy File Directory" keyEquivalent="d" id="r64-5J-mW8">
-=======
                                         <menuItem title="File Directory" keyEquivalent="d" id="r64-5J-mW8">
->>>>>>> dev
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="copyFileDirectoryMenuItemClicked:" target="Ady-hI-5gd" id="zf2-pU-bBa"/>
