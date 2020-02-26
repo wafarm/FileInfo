@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28356F502406919A006527DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 28356F4F24069199006527DD /* README.md */; };
 		2837A68623CC69D200E19D4E /* FileHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837A68523CC69D200E19D4E /* FileHash.swift */; };
 		2860F7C423C0644A003C4124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860F7C323C0644A003C4124 /* AppDelegate.swift */; };
 		2860F7C623C0644A003C4124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860F7C523C0644A003C4124 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28356F4F24069199006527DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2837A68523CC69D200E19D4E /* FileHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHash.swift; sourceTree = "<group>"; };
 		2860F7C023C0644A003C4124 /* FileInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2860F7C323C0644A003C4124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		2860F7B723C0644A003C4124 = {
 			isa = PBXGroup;
 			children = (
+				28356F4F24069199006527DD /* README.md */,
 				2860F7C223C0644A003C4124 /* FileInfo */,
 				2860F7C123C0644A003C4124 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28356F502406919A006527DD /* README.md in Resources */,
 				2860F7CA23C06453003C4124 /* Assets.xcassets in Resources */,
 				2860F7CD23C06453003C4124 /* Main.storyboard in Resources */,
 			);
