@@ -1,15 +1,37 @@
-### 这个软件干了什么？
+# FileInfo
 
-显示基本的文件信息。
+FileInfo is an app that helps you to get your file information quickly.
 
-### 如何使用
+The information FileInfo provided includes file path, file size and file directory.
 
-把文件拖入Dock上的文件图标即可。
+## Usage
 
- _注意：不要拖入文件夹！_
+Drag the file onto the FileInfo Dock icon. Then you'll get the infomation of the file.
 
-### TODO
+## Hot keys (Coming soon)
 
-- [ ] 文件哈希
-- [x] 文件大小显示
-- [x] 文件路径显示
+FileInfo also provides hot key that could help you get your file information even quicker!
+
+FileInfo provides hot key:
+
+- Copy file path(P)
+
+- Copy file directory(D)
+
+- Copy file size(S)
+
+- Close current window(W)
+
+## Installation
+
+Go to [the release page](https://github.com/qinyuyao/FileInfo/releases) and download the newest version.
+
+## Version log
+
+### v1.1 (Coming soon)
+
+This verion will provide more file information and **hot keys**.
+
+### v1.0
+
+This is the first version and it only has some basic file information.
